@@ -1,0 +1,131 @@
+/* Navbar */
+.navbar-brand {
+    font-family: Aclonica;
+    font-size: 60px;
+    margin: auto;
+}
+
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(imgku/cover.png);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    height: 850px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+
+    font-family: Rowdies;
+    color: black;
+    font-size: 40px;
+    margin-top: 150px;
+
+}
+
+.jumbotron .judulPintu {
+    font-size: 35px;
+    margin-top: 10px;
+    color: salmon;
+}
+
+.jumbotron .judulMedia {
+    font-size: 25px;
+    margin-top: 10px;
+    font-family: karla;
+    font-style: oblique;
+
+}
+
+.jumbotron .judulHidup {
+    font-family: Tenali Ramakrishna;
+    font-size: 17px;
+
+}
+
+.jumbotron .btn {
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* VERSI DESKTOP */
+@media (min-width: 992px) {
+    .nav-link {
+        font-family: Alatsi;
+        font-size: 20px;
+
+
+
+    }
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+
+    }
+
+    .nav-link:hover::after {
+        content: " ";
+        border-bottom: 4px solid #00BFFF;
+        margin: auto;
+        width: 50%;
+        display: block;
+        padding-bottom: 5px;
+        margin-bottom: -9px;
+    }
+
+    .jumbotron {
+        margin-top: -115px;
+        text-align: center;
+    }
+
+    .jumbotron .display-4 {
+        font-family: Rowdies;
+        color: black;
+        font-size: 50px;
+        margin-top: 110px;
+
+    }
+
+    .jumbotron .judulPintu {
+        font-size: 45px;
+        margin-top: 10px;
+        color: salmon;
+    }
+
+    .jumbotron .judulMedia {
+        font-size: 25px;
+        margin-top: 15px;
+        font-family: karla;
+        font-style: oblique;
+
+    }
+
+    .jumbotron .judulHidup {
+        font-family: Tenali Ramakrishna;
+        font-size: 25px;
+
+    }
+
+
+
+}
