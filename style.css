@@ -1,88 +1,102 @@
 /* Navbar */
 .navbar-brand {
     font-family: Aclonica;
-    font-size: 60px;
+    font-size: 50px;
     margin: auto;
 }
 
+.nav-link {
+    font-family: Alata;
+    font-size: 16px;
+    margin-right: 30px;
+    margin-top: -55px;
+}
 
-/* jumbotron */
-.jumbotron {
-    background-image: url(imgku/cover.png);
-    background-position: center;
+.navbar-brand,
+.nav-link {
+    color: white !important;
+
+}
+
+/* Slider */
+.carousel-item {
+    height: 600px;
+    background: no-repeat center center scroll;
     background-size: cover;
-    margin: auto;
-    height: 850px;
-    text-align: center;
+    -webkit-background-size: cover;
 }
 
-.jumbotron .display-4 {
-
-    font-family: Rowdies;
-    color: black;
-    font-size: 40px;
-    margin-top: 150px;
-
+.carousel-caption {
+    bottom: 220px;
 }
 
-.jumbotron .judulPintu {
-    font-size: 35px;
-    margin-top: 10px;
-    color: salmon;
-}
-
-.jumbotron .judulMedia {
-    font-size: 25px;
-    margin-top: 10px;
-    font-family: karla;
-    font-style: oblique;
-
-}
-
-.jumbotron .judulHidup {
-    font-family: Tenali Ramakrishna;
-    font-size: 17px;
-
-}
-
-.jumbotron .btn {
+.carousel-caption h5 {
+    font-size: 58px;
     text-transform: uppercase;
-    border-radius: 10px;
+    margin-top: 20px;
+    letter-spacing: 8px;
+    font-family: merienda;
 }
 
+.carousel-caption p {
+    font-size: 34px;
+    margin: auto;
+    line-height: 1.9;
+    font-family: Fira Sans;
+}
+
+.carousel-caption .kataCaption {
+    font-size: 45px;
+
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+/* Akhir slider */
+
+/* Card penjelasan pintu.kelas */
+.card-img-overlay {
+    margin-top: 25px;
+}
+
+.card-title {
+    font-family: Aclonica;
+    font-size: 25px;
+    margin: auto;
+}
+
+/* Akhir card penjelasan pintu.kelas */
 
 
+/* Versi jika muncul di hp */
+@media only screen and (max-width: 767px) {
+    .navbar-nav.ml-auto {
+        background: rgba(0, 0, 0.8, 0.5);
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        padding: 1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background: #B0C4DE;
+    }
+
+    .btn .btn-primary {
+        border-radius: 7px;
+    }
+
+}
+
+/* Akhir Versi jika muncul di hp  */
 
 
-
-
-
-
-
-
-/* VERSI DESKTOP */
+/* Versi jika muncul di Desktop Saja */
 @media (min-width: 992px) {
-    .nav-link {
-        font-family: Alatsi;
-        font-size: 20px;
 
-
-
-    }
-
-    .navbar-brand,
-    .nav-link {
-        color: white !important;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
-
-    }
-
-    .nav-link {
-        text-transform: uppercase;
-        margin-right: 30px;
-
-    }
-
+    /* Navbar desktop*/
     .nav-link:hover::after {
         content: " ";
         border-bottom: 4px solid #00BFFF;
@@ -93,38 +107,13 @@
         margin-bottom: -9px;
     }
 
-    .jumbotron {
-        margin-top: -115px;
-        text-align: center;
+    .container {
+        margin-top: 40px;
+        margin-left: 50px;
     }
 
-    .jumbotron .display-4 {
-        font-family: Rowdies;
-        color: black;
-        font-size: 50px;
-        margin-top: 110px;
 
-    }
 
-    .jumbotron .judulPintu {
-        font-size: 45px;
-        margin-top: 10px;
-        color: salmon;
-    }
-
-    .jumbotron .judulMedia {
-        font-size: 25px;
-        margin-top: 15px;
-        font-family: karla;
-        font-style: oblique;
-
-    }
-
-    .jumbotron .judulHidup {
-        font-family: Tenali Ramakrishna;
-        font-size: 25px;
-
-    }
 
 
 
